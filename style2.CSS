@@ -1,0 +1,255 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.left, .right {
+    width: 25%;
+    padding: 10px;
+    background-color: #cccccc;
+}
+
+.main {
+    width: 50%;
+    padding: 10px;
+    color: white; /* Set main content font to white */
+}
+
+/* Services Section */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black; /* Override font color for service section */
+}
+
+.service {
+    width: 30%;
+    margin: 10px 0;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.button {
+    background-color: #0066cc;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Form Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left, .main, .right {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .menu a {
+        display: block;
+        text-align: center;
+    }
+}/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+/* Navigation Menu */
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a:hover {
+    background-color: #444;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.left, .right {
+    width: 25%;
+    padding: 10px;
+    background-color: #cccccc;
+}
+
+.main {
+    width: 50%;
+    padding: 10px;
+    color: white; /* Set main content font to white */
+}
+
+/* Services Section */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black; /* Override font color for service section */
+}
+
+.service {
+    width: 30%;
+    margin: 10px 0;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.button {
+    background-color: #0066cc;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Form Inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left, .main, .right {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .menu a {
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grooming Den</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body background="photos/Background.jpg">
+    <header class="header">
+        <img src="photos/TGD LOGO.png" alt="The Grooming Den logo" class="logo" width="140" height="80">
+    </header>
+	
+	<center>
+    <nav class="menu">
+        <a href="index2.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+	</center><br><br><br><br><br><br>
+
+    <div class="content">
+        <aside class="left">
+            <h3>Quick Links</h3>
+            <a href="booking.html">Book Now</a><br>
+            <a href="services.html">Our Prices</a><br>
+            <a href="contact.html">Call Us</a>
+        </aside>
+
+        <main class="main">
+            <h2>Welcome to The Grooming Den</h2>
+            <p>Best haircuts in the Ghetto at affordable prices!</p>
+            <a href="booking.html" class="button">Book Now</a>
+        </main>
+
+        <aside class="right">
+            <h3>Contact</h3>
+            <p>Phone: +267 7123 4567</p>
+            <p>Email: info@thegroomingden.com</p>
+        </aside>
+    </div><br><br><br><br><br><br>
+
+    <footer class="footer">
+        <p>© 2025 The Grooming Den</p>
+    </footer>
+	
+	<script>
+        const links = document.querySelectorAll('.menu a');
+        links.forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+	
+</body>
+</html>

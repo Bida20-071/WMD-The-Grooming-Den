@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body background="photos/Background.jpg">
+    <header class="header">
+        <img src="photos/TGD LOGO.png" alt="The Grooming Den logo" class="logo" width="140" height="80">
+    </header>
+	
+	<center>
+    <nav class="menu">
+        <a href="index2.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+	</center>
+
+    <div class="content">
+        <aside class="left">
+            <h3>Rate Us</h3>
+            <p>We appreciate your feedback!</p>
+            <p>Your experience matters to us! Whether you loved your haircut or have suggestions for improvement, please take a moment to rate your visit. Honest feedback helps our barbers deliver the sharpest styles and best services.</p>
+        </aside>
+
+        <main class="main">
+            <h2>Customer Feedback</h2>
+
+            <form>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="service">Service Received:</label><br>
+                <select id="service" name="service" required>
+                    <option value="">Select service</option>
+                    <option value="haircut">Haircut</option>
+                    <option value="beard">Beard Trim</option>
+                    <option value="both">Both</option>
+                </select><br><br>
+
+                <label>Rating:</label><br>
+                <input type="radio" id="excellent" name="rating" value="excellent" required>
+                <label for="excellent">Excellent</label><br>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="good">Good</label><br>
+                <input type="radio" id="average" name="rating" value="average">
+                <label for="average">Average</label><br>
+                <input type="radio" id="poor" name="rating" value="poor">
+                <label for="poor">Poor</label><br><br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" style="width:100%;" required></textarea><br><br>
+
+                <input type="submit" value="Submit Feedback" class="button">
+            </form>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 The Grooming Den</p>
+    </footer>
+</body>
+</html>
